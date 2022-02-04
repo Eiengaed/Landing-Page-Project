@@ -8,9 +8,9 @@
 ### Folder structure
 
 - css
- -style.css
+    - style.css
 - js
- - app.ja
+    - app.js
 - index.html
 - README.md
 
