@@ -2,12 +2,21 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+- Folder structure
+- Code explanation
 
-## Instructions
+### Folder structure
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+- css
+ -style.css
+- js
+ - app.ja
+- index.html
+- README.md
 
-To get started, open `js/app.js` and start building out the app's functionality
+### Code explanation
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+The code itself is pretty easy to understand. But I want to explain my choice of the hamburger "button" not being inside the navbar.
+For me it is more logical to have it outside the navbar so you can use the full width of the phone screen(or similiar) to go to a section.
+When the navbar is hidden the hamburger does not interfere with the reading experience. 
+ 

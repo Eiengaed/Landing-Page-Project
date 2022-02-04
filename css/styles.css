@@ -61,17 +61,71 @@ section {
 }
 
 
+
 /* ---- Module Rules ---- */
 
+/* Hamburger menu*/
+.hamburger{
+    display: none;    
+}
+
+.stick{
+    display: block;
+    border: 1px solid sienna;
+    background: salmon;
+    width: 30px;
+    height: 5px;
+    margin: 2px;   
+}
+
+@media(max-width: 400px){
+    .hamburger{
+        display: block;
+        position: absolute;
+        top: 0%;
+        z-index: 999;
+        background: white;
+        border: 1px solid red;
+        border-radius: 3px;
+        padding: 2px;
+        margin: 5px 5px;
+    }
+    
+    .stick{
+        display: block;
+        border: 1px solid sienna;
+        background: salmon;
+        width: 30px;
+        height: 5px;
+        margin: 2px;   
+    }
+
+    .navbar__menu ul {
+        padding-left: 100px;
+        margin: 0;
+        text-align: center;
+    }
+    
+}
+
 /* Navigation Styles*/
+.active{
+ background: rgb(110, 243, 22);
+}
+
 .navbar__menu ul {
     padding-left: 0;
     margin: 0;
-    text-align: right;
+    text-align: center;
 }
 
 .navbar__menu li {
     display: inline-block;
+    padding: 0px 5px;
+}
+
+.navbar__menu a{
+    color: rgb(0, 0, 0);
 }
 
 .navbar__menu .menu__link {
